@@ -1,0 +1,59 @@
+*{
+background-color: #D8C4B6;
+
+}
+h1{
+    font-family: Verdana;
+    background-color: #132043;
+    color: pink;
+    
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color:#132043;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: white;
+    color:#132043;
+}
+img{
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-top: 10px; 
+}
+body>p{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:#132043;
+    
+}
+h2{
+    font-family: sans-serif;
+ color:rgb(172, 66, 84);
+ font-size: 30px;
+}
+
+/* Responsive navigation menu (for smaller screens) */
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
